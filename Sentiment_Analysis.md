@@ -38,3 +38,13 @@ Da wir das vortrainierte NLP-Modell DistelBERT nutzen, müssen wir unsere Umgebu
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/df688ad1-0910-474f-9516-2ac838b6ed1b) <br> <br>
 Anschließend laden wir das bereits für uns vorbereitete IMDB Review Dataset herunter, und testen dann, ob in unserer Runtime eine GPU verfügbar ist: <br> <br>
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/761e2e17-bf35-4907-804f-536d603fce10) <br> <br>
+### Test- und Trainingsdaten vorbereiten <a name="heading5"></a>
+Damit wir die Texte aus den IMDB Reviews dazu verwenden können, um das Gefühl was darin vermittelt wird zu erkennen, müssen wir diese für die Weiterverarbeitung vorbereiten. Dafür teilen wir diese in einzelne Wörter auf und erstellen Tokens aus diesen. Die Vorgehensweise dabei ist wie folgt.
+
+Erst werden wir uns ein Subset aus den Trainings und Testdaten erstellen, da das gesamte Dataset relativ groß ist. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/87902984-e4d3-424c-bc26-f6354150eff7) <br> <br>
+Dann erstellen wir eine Instanz eines bereits existierenden Tokenizers, der uns dabei helfen wird, die Worte in Tokens aufzuschlüsseln. Zudem erstellen wir die Tokens und teilen diese in Subsets auf, damit das Modell nicht alle gleichzeitig verarbeiten muss: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/bee58e01-66e5-47e9-8ce8-acab6fe780c3) <br> <br>
+Da die meisten Modelle für das Training eine homogene Inputlänge benötigen, werden wir die größe aller Einträge mittels Padding auf den größten Eintrag festlegen. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/83e4b78a-d21d-4646-a473-3ad9bf59ccb3) <br> <br>
+### Importieren des DistelBERT NLP Models <a name="heading6"></a>
