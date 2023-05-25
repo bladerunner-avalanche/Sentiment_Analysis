@@ -30,5 +30,7 @@ DistilBERT ist die kleine Variante des BERT-Modells (Bidirectional Encoder Repre
 ### Skript initialisieren <a name="heading4"></a>
 Um mit dem Aufbau und Trainieren des Modells zu beginnen müssen wir die nötigen Pakete mittels des Python Paketmanagers PIP installieren. (Der Code auf der Webseite wird mit Deepnote angezeigt, nutzt aber bitte Google Colab da der Huggingface Login in Deepnote buggt)
 
-Beim Installieren der Pakete müssen wir auf eine ältere Version von Transformer zurückgreifen, da die aktuelle Fehler wirft. <br>
+Beim Installieren der Pakete müssen wir auf eine ältere Version von Transformer zurückgreifen, da die aktuelle Fehler wirft. <br> <br>
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/7d8a2799-b148-4f32-bc2b-47e919e2c067)
+Diese Pakete werden dann importiert: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/a20043d8-b3b0-4f16-8cc3-4883dd283965)
