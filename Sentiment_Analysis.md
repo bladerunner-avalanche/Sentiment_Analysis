@@ -2,7 +2,6 @@
 ## Inhalt
 1. [Was ist Sentiment Analysis](#heading1)
 2. [Projekt: Klassifizieren von Filmreviews](#heading2)
-
 	2.1 [DistelBERT Modell](#heading3)
 	2.2 [Skript Initialisieren](#heading4)
 	2.3 [Test- und Trainingsdaten vorbereiten](#heading5)
