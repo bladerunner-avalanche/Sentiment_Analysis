@@ -58,3 +58,15 @@ Daraufhin setzen wir die Trainingsparameter und erstellen eine Trainer Instanz u
 ### Trainieren, Evaluieren und Hochladen des Modells <a name="heading8"></a>
 In diesem Schritt trainieren wir das Model und evaluieren es anschließend: <br> <br>
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/7e6c96a9-55b3-4510-9e61-883346444e39) <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/ac72c877-7c06-4d4b-b0ab-513b690a95cb) <br> <br>
+Nun kann man das Modell in sein Repository hochladen, um es später wieder zu verwenden. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/240e0076-93b0-4227-b1ba-1a94fd594afb) <br> <br>
+Man kann das Modell wie folgt wieder in seine Umgebung importieren, wenn man diese bei Hugginface.co eingeloggt hat: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/18b5b47e-76ca-4aae-9bf6-4785196d3dac) <br> <br>
+Bei dem Screenshot oben ist zu beachten, dass LABEL_1 Positiv und LABEL_0 Negativ ist.
+## Quellen <a name="heading9"></a>
+https://huggingface.co/blog/sentiment-analysis-python (Main Source)
+https://aws.amazon.com/what-is/sentiment-analysis/#:~:text=Sentiment%20analysis%20is%20the%20process,social%20media%20comments%2C%20and%20reviews.
+https://paperswithcode.com/method/multi-head-attention
+https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
+http://sentiment.christopherpotts.net/tokenizing.html
