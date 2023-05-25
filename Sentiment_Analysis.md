@@ -34,3 +34,7 @@ Beim Installieren der Pakete müssen wir auf eine ältere Version von Transforme
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/7d8a2799-b148-4f32-bc2b-47e919e2c067) <br> <br>
 Diese Pakete werden dann importiert: <br> <br>
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/a20043d8-b3b0-4f16-8cc3-4883dd283965) <br> <br>
+Da wir das vortrainierte NLP-Modell DistelBERT nutzen, müssen wir unsere Umgebung bei Huggingface.co anmelden, um dieses zu laden. Außerdem können wir dadurch unser trainiertes Modell in ein Repository hochladen. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/df688ad1-0910-474f-9516-2ac838b6ed1b) <br> <br>
+Anschließend laden wir das bereits für uns vorbereitete IMDB Review Dataset herunter, und testen dann, ob in unserer Runtime eine GPU verfügbar ist: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/761e2e17-bf35-4907-804f-536d603fce10) <br> <br>
