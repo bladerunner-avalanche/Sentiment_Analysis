@@ -65,8 +65,8 @@ Man kann das Modell wie folgt wieder in seine Umgebung importieren, wenn man die
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/18b5b47e-76ca-4aae-9bf6-4785196d3dac) <br> <br>
 Bei dem Screenshot oben ist zu beachten, dass LABEL_1 Positiv und LABEL_0 Negativ ist.
 ## Quellen <a name="heading9"></a>
-https://huggingface.co/blog/sentiment-analysis-python (Main Source)
-https://aws.amazon.com/what-is/sentiment-analysis/#:~:text=Sentiment%20analysis%20is%20the%20process,social%20media%20comments%2C%20and%20reviews.
-https://paperswithcode.com/method/multi-head-attention
-https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
-http://sentiment.christopherpotts.net/tokenizing.html
+https://huggingface.co/blog/sentiment-analysis-python (Main Source) <br>
+https://aws.amazon.com/what-is/sentiment-analysis/#:~:text=Sentiment%20analysis%20is%20the%20process,social%20media%20comments%2C%20and%20reviews. <br>
+https://paperswithcode.com/method/multi-head-attention <br>
+https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853 <br>
+http://sentiment.christopherpotts.net/tokenizing.html <br>
