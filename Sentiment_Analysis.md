@@ -1,14 +1,14 @@
 # Sentiment Analysis
 ## Inhalt
-1. [Was ist Sentiment Analysis](#heading1)
-2. [Projekt: Klassifizieren von Filmreviews](#heading2)
-	2.1 [DistelBERT Modell](#heading3)
-	2.2 [Skript Initialisieren](#heading4)
-	2.3 [Test- und Trainingsdaten vorbereiten](#heading5)
-	2.4 [Importieren des DistelBERT NLP Modells](#heading6)
-	2.5 [Setzen der Trainingsparameter](#heading7)
-	2.6 [Trainieren, Evaluieren und Hochladen des Modells](#heading8)
-3. [Quellen](#heading9)
+1. [Was ist Sentiment Analysis](#heading1) <br>
+2. [Projekt: Klassifizieren von Filmreviews](#heading2) <br>
+	2.1 [DistelBERT Modell](#heading3) <br>
+	2.2 [Skript Initialisieren](#heading4) <br>
+	2.3 [Test- und Trainingsdaten vorbereiten](#heading5) <br>
+	2.4 [Importieren des DistelBERT NLP Modells](#heading6) <br>
+	2.5 [Setzen der Trainingsparameter](#heading7) <br>
+	2.6 [Trainieren, Evaluieren und Hochladen des Modells](#heading8) <br>
+3. [Quellen](#heading9) <br>
 
 ## Was ist Sentiment Analysis <a name="heading1"></a>
 Die Sentiment Analyse ermöglicht das verstehen von Gefühlen in Texten. Dabei werden diese in positive, negative oder auch neutrale Meinungen klassifiziert. Ein Beispiel für eine mögliche Anwendung kann sein, Social Media Posts und Kommentare zu bestimmten Aktien oder Unternehmen aus dem Internet zu ziehen und die allgemeine Meinung zu analysieren um eventuell vorhersagen zu können, ob der Aktienpreis sinken oder steigen wird.
