@@ -48,3 +48,13 @@ Dann erstellen wir eine Instanz eines bereits existierenden Tokenizers, der uns 
 Da die meisten Modelle für das Training eine homogene Inputlänge benötigen, werden wir die größe aller Einträge mittels Padding auf den größten Eintrag festlegen. <br> <br>
 ![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/83e4b78a-d21d-4646-a473-3ad9bf59ccb3) <br> <br>
 ### Importieren des DistelBERT NLP Models <a name="heading6"></a>
+Wir sparen uns ein ganzes Stück Arbeit und greifen auf das vortrainierte DistelBERT Modell zu. Eine Instanz davon laden wir uns in unser Notebook: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/868f07e2-c637-4884-8ad0-99875954ac5a) <br> <br>
+### Setzen der Trainingsparameter <a name="heading7"></a>
+Der nächste Schritt ist, die Metriken, die wir zum Überwachen der Modell-Performance benötigen, zu definieren. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/b88bb54a-91d4-47c1-b956-de5b1b245f39) <br> <br>
+Daraufhin setzen wir die Trainingsparameter und erstellen eine Trainer Instanz um diese auf das zu trainierende Modell anzuwenden. <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/0eb8c383-9b15-42d6-985d-4e9ed1e4588f) <br> <br>
+### Trainieren, Evaluieren und Hochladen des Modells <a name="heading8"></a>
+In diesem Schritt trainieren wir das Model und evaluieren es anschließend: <br> <br>
+![image](https://github.com/bladerunner-avalanche/Sentiment_Analysis/assets/117034924/7e6c96a9-55b3-4510-9e61-883346444e39) <br>
