@@ -12,3 +12,11 @@ https://huggingface.co/mwinterhalter/my-sentiment-model <br>
 Loss: 0.3033 <br>
 Accuracy: 0.9301 <br>
 F1: 0.9302 <br>
+
+New eval metrics using 25k test data entries and 4 epochs: <br>
+Loss: 0.3230 <br>
+Accuracy: 0.9307 <br>
+F1: 0.9315 <br>
+
+Slighlty higher loss but accuracy slightly increased. <br>
+Trying to increase the batch size next.
