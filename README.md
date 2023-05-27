@@ -1,5 +1,5 @@
 # Sentiment_Analysis
-Sentiment Analysis using the DistelBERT Model from Huggingface.co for the introduction to data science course
+Sentiment Analysis using the DistilBERT Model from Huggingface.co for the introduction to data science course
 
 ## Sentiment Model with a training dataset size of 3000 entries and test dataset of 300 entries:
 https://huggingface.co/mwinterhalter/finetuning-sentiment-model-3000-samples <br>
