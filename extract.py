@@ -138,7 +138,7 @@ error_urls = []
 error_msgs = []
 
 for count in tqdm(range(NUMBER_OF_WEBPAGES)):
-    url = 'https://www.imdb.com/title/tt{:07d}/reviews/?ref_=tt_ov_rt'.format(count)
+    url = 'tt{:07d}/reviews'.format(count)
     try:
         df = scrape_data(url)
         if df is not None:
