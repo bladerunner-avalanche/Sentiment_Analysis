@@ -2,7 +2,7 @@
 ## Inhalt
 1. [Was ist Sentiment Analysis](#heading1) <br>
 2. [Projekt: Klassifizieren von Filmreviews](#heading2) <br>
-	2.1 [DistelBERT Modell](#heading3) <br>
+	2.1 [DistilBERT Modell](#heading3) <br>
 	2.2 [Skript Initialisieren](#heading4) <br>
 	2.3 [Test- und Trainingsdaten vorbereiten](#heading5) <br>
 	2.4 [Importieren des DistelBERT NLP Modells](#heading6) <br>
@@ -14,7 +14,7 @@
 Die Sentiment Analyse ermöglicht das verstehen von Gefühlen in Texten. Dabei werden diese in positive, negative oder auch neutrale Meinungen klassifiziert. Ein Beispiel für eine mögliche Anwendung kann sein, Social Media Posts und Kommentare zu bestimmten Aktien oder Unternehmen aus dem Internet zu ziehen und die allgemeine Meinung zu analysieren um eventuell vorhersagen zu können, ob der Aktienpreis sinken oder steigen wird.
 ## Projekt: Klassifizieren von Filmreviews<a name="heading2"></a>
 Dieses Anwendungsbeispiel hat uns gezeigt, wie man ein Machine-Learning Modell zum Erkennen von Gefühlen in Bewertungen nutzen kann. Dafür wurde das DistilBERT-Modell verwendet und weitertrainiert.
-### DistelBERT Modell <a name="heading3"></a>
+### DistilBERT Modell <a name="heading3"></a>
 DistilBERT ist die kleine Variante des BERT-Modells (Bidirectional Encoder Representations from Transformers). Diese beiden Modelle sind auf Natural Language Processing (NLP) spezialisiert. In unserem Fall wollen wir also die Sprachverarbeitung dieses bereits trainierten Modells nutzen, und auf unseren Anwendungsfall (Ob ein Text schlecht oder gut gemeint ist) anpassen, also trainieren. Der Vorteil von DistilBERT ist, dass es viel kleiner ist als das Original, aber dabei nur 5% der Genauigkeit des großen Bruders einbüßt. Diese Kompression wird durch mehrere Prozesse erreicht:
 
 -   Destillation (deswegen  **Distil**BERT):
